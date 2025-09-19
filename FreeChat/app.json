@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "FreeChat",
+    "slug": "FreeChat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/FreeChatLogo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/FreeChatLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/FreeChatLogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.talion2007.FreeChat"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bbd28685-e63e-4dc2-94bd-1dd35d9a8d20"
+      }
+    }
+  }
+}
